@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register</title>
+</head>
+<body>
+   <h1>Register Here </h1> 
+   <form id="myForm" onsubmit="validateForm(event)">
+    <label for="email">Email:</label>
+    <input type="text" id="email" name="email">
+    <span id="emailError" class="error"></span><br>
+
+
+    <label for="password">Password:</label>
+    <input type="text" id="password" name="password">
+    <span id="passwordError" class="error"></span><br>
+
+    <input type="submit" value="Submit">
+    
+</form>
+
+</body>
+</html>
